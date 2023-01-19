@@ -66,10 +66,9 @@ def play_the_Game():
     
     if user_game == 'Y' or user_game == 'y':
         play_the_Game()
-
+    else:
+        print('''
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+        ____________________-GOODBYE-____________________
+        ''')
 play_the_Game()
-
-
-
-
-
